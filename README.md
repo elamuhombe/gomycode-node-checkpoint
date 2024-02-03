@@ -15,6 +15,8 @@ This Project contains 3 sub programs:
 ![hello](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/8b6687e4-3875-41a0-8182-e364341380de)
 
 ### main.js output
+![hellonode](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/95f3ab06-df8d-45cf-9d1f-3d6aadd10374)
+
 
 ### password-generator output
 ![pwd](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/8c6a1c2f-5eef-4fb4-b113-3ee7f9a3262a)
@@ -22,16 +24,32 @@ This Project contains 3 sub programs:
 ### email-sender output in gmail
 ![email](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/e21cad9f-e158-43d2-a19b-e45a9dc84f23)
 
-## Usage
-## 
-
-
-
-
+## Core Modules
+- http: provides the functionality for creating http servers and making http requests.
+- fs: provides the functionality for interacting with the file system.
+  
+## Dependencies
+- password-generator:module that can be used to generate random passwords
+- nodemailer: module for sending emails with Node.js.
+  
+## Technologies
+### Node.js v21.4.0
+A JavaScript runtime that allows you to run JavaScript code on the server side.
 
 ## How to Run
 
 1. Install Node.js (https://nodejs.org/)
-2. Install Dependencies:
+2. Download and install Dependencies:
    ```bash
-   npm install generate-password nodemailer
+   
+   npm install password-generator nodemailer
+3. Open the project folder files with
+4. Navigate the src folder in terminal
+   /Desktop/GOMYCODE/NodeJS-Checkpoint$
+   NB: 'Desktop' is the location of the project files. You can replace it with the your location of your project.
+   cd src
+6. Run the programs file
+   Example to run the hello-world program
+   node hello-world.js
+   
+ 
