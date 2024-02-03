@@ -16,6 +16,17 @@ This Project contains 3 sub programs:
 
 ### main.js output
 
+### password-generator output
+![pwd](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/8c6a1c2f-5eef-4fb4-b113-3ee7f9a3262a)
+
+### email-sender output in gmail
+![email](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/e21cad9f-e158-43d2-a19b-e45a9dc84f23)
+
+## Usage
+## 
+
+
+
 
 
 ## How to Run
