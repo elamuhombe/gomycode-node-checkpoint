@@ -51,5 +51,13 @@ A JavaScript runtime that allows you to run JavaScript code on the server side.
 6. Run the programs file
    Example to run the hello-world program
    node hello-world.js
+
+## Author
+Elaine Muhombe
+
+## Acknowledgements
+- w3schools: https://www.w3schools.com/
+- Node.js website: https://nodejs.org/docs/latest/api/modules.html#core-modules
+
    
  
