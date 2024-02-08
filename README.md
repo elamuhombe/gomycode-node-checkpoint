@@ -4,7 +4,7 @@ This Project contains 3 sub programs:
 - Node.js Server: This program creates a simple Node.js server that responds with `<h1>Hello Node!!!!</h1>` when accessed at http://localhost:3000. The program is stored in 'server.js' file.
 - File System: This program demonstrates file system operations by creating a file named "welcome.txt" with the content "Hello Node" and then reading and logging the content to the console. The program is saved in 'fileOperation.js'.
 - Password Generator Program: This program uses the `generate-password` package to generate a random password and logs it to the console. The program is saved in 'password-generator' file.
-- Email Sender Program: This program uses the `nodemailer` package to send a test email to yourself using Gmail. The program is stored in 'email-sender file.
+- Email Sender Program: This program uses the `nodemailer` package to send a test email to yourself using Gmail. The program is stored in 'email-sender file'. The user email and password are stored in an .env file as they are sensitive.
 
 ## Project Structure
 ![project-structure](https://github.com/elamuhombe/gomycode-node-checkpoint/assets/10416177/ed5beeaf-7b17-45e5-b933-667f25463078)
@@ -39,6 +39,7 @@ This Project contains 3 sub programs:
 ## Dependencies
 - password-generator:module that can be used to generate random passwords
 - nodemailer: module for sending emails with Node.js.
+- dotenv: is a popular Node.js library used for loading environment variables from a .env file into process.env. It simplifies the process of managing environment-specific configuration settings in Node.js applications.
   
 ## Technologies
 ### Node.js v21.4.0
@@ -59,6 +60,7 @@ A JavaScript runtime that allows you to run JavaScript code on the server side.
 6. Run the programs file
    Example to run the hello-world program
    node hello-world.js
+7. For the email-sender task, create a .env file inside the project folder and store your email adrress and password which will be used in the email-sender file.
 
 ## Author
 Elaine Muhombe
