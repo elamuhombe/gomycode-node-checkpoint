@@ -7,22 +7,30 @@ This Project contains 3 sub programs:
 - Email Sender Program: This program uses the `nodemailer` package to send a test email to yourself using Gmail. The program is stored in 'email-sender file.
 
 ## Project Structure
-![pj](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/1b08a286-512a-481e-8287-c6dfd56a0baa)
-
+![project-structure](https://github.com/elamuhombe/gomycode-node-checkpoint/assets/10416177/ed5beeaf-7b17-45e5-b933-667f25463078)
 
 ## Screenshots
 ### Hello-world.js output
-![hello](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/8b6687e4-3875-41a0-8182-e364341380de)
+![hello-world ](https://github.com/elamuhombe/gomycode-node-checkpoint/assets/10416177/ef1e682e-fc0e-43c4-becf-cf2ba48a779b)
 
-### main.js output
-![hellonode](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/95f3ab06-df8d-45cf-9d1f-3d6aadd10374)
+
+### server.js output
+![hello-node](https://github.com/elamuhombe/gomycode-node-checkpoint/assets/10416177/371620bd-028c-4546-b37e-8854d1848c31)
+
+
+
 
 
 ### password-generator output
-![pwd](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/8c6a1c2f-5eef-4fb4-b113-3ee7f9a3262a)
+![password ](https://github.com/elamuhombe/gomycode-node-checkpoint/assets/10416177/d32deaa6-035b-4ad9-8f51-b8f95397ff67)
+
+
+### email-sender output in console
+![console nodemailer ](https://github.com/elamuhombe/gomycode-node-checkpoint/assets/10416177/c8721ab1-e122-4c82-9488-a46854b28493)
 
 ### email-sender output in gmail
-![email](https://github.com/elamuhombe/gomycode-NodeJS-checkpoint/assets/10416177/e21cad9f-e158-43d2-a19b-e45a9dc84f23)
+![gmail nodemailer](https://github.com/elamuhombe/gomycode-node-checkpoint/assets/10416177/6ae80881-8ab6-472c-98b0-165faf8ccdc3)
+
 
 ## Core Modules
 - http: provides the functionality for creating http servers and making http requests.
@@ -42,10 +50,10 @@ A JavaScript runtime that allows you to run JavaScript code on the server side.
 2. Download and install Dependencies:
    ```bash
    
-   npm install password-generator nodemailer
+   npm install http fs password-generator nodemailer
 3. Open the project folder files with
 4. Navigate the src folder in terminal
-   /Desktop/GOMYCODE/NodeJS-Checkpoint$
+   /Desktop/GOMYCODE/nodejs-checkpoint$
    NB: 'Desktop' is the location of the project files. You can replace it with the your location of your project.
    cd src
 6. Run the programs file
@@ -58,6 +66,7 @@ Elaine Muhombe
 ## Acknowledgements
 - w3schools: https://www.w3schools.com/
 - Node.js website: https://nodejs.org/docs/latest/api/modules.html#core-modules
+- https://dev.to/aneeqakhan/how-to-setup-a-nodejs-server-port-25l6
 
    
  
